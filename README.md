@@ -339,9 +339,9 @@ git commit -m "Исправить #324, добавить график темпе
 ### Mermaid-тест.
 
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+  graph LR;
+      untracked--"git add" --> staged;
+      staged--change--modified--"git add" --> staged
+      staged--"git commit" --> tracked;
+      untracked--"git add" --> tracked + staged;
 ```
