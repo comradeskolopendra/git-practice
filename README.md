@@ -262,4 +262,14 @@ git commit -m "feat: добавить подсчет суммы заказов �
 git commit -m "Исправить #324, добавить график температуры"
 ```
 
+### Mermaid-тест.
+```mermaid
+flowchart TD
+  A[Is mermaid working?] --> B[Mermaid working!!!]
 
+graph TD
+  A[GRAPH YEYEY] --> B[FIRST STEP B GRAPH EYEY]
+  A[GRAPH YEYEY] --> C[FIRST STEP C GRAPH EYEY]
+  B[FIRST STEP B GRAPH EYEY] --> D[SECOND STEP D GRAPH EYEY]
+  C[FIRST STEP C GRAPH EYEY] --> D [SECOND STEP D GRAPH EYEY]  
+```
