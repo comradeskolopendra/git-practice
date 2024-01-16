@@ -1,0 +1,10 @@
+# just test git ignore.
+
+# проигнорирует все файлы в корневой директории.
+*
+
+# кроме файлов с расширением .tex и .pdf.
+!*.tex
+!*.pdf
+!README.md
+!.gitignore
