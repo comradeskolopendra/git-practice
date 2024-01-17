@@ -610,3 +610,5 @@ git checkout <branch name>
 ```bash
 git branch <branch name> && git checkout <branch name>
 ```
+
+Ветка в git - это указатель на коммит с той ветки, от которой была создана текущая. Когда делается коммит в новую ветку - указатель передвигается вперед.
