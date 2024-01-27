@@ -715,3 +715,8 @@ git push -u origin my-branch # зхапушили локальную ветку 
 ```
 
 Флаг `-u` в команде `git push` позволяет связать локальную и удаленную ветки.
+
+Команда `git remote rm origin` - удалит текущую привязку `origin`:
+```bash
+git remote rm origin
+```
